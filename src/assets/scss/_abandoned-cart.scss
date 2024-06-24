@@ -1,12 +1,18 @@
 .header-img {
-    max-width: 231px;
+    display: inline-block;
+    // max-width: 231px;
 }
 .header-phone {
-    display: block;
+    display: inline-block;
     font-size: 20.12px;
     font-weight: 700;
     line-height: 34.21px;
     letter-spacing: 0.03em;
+    @media only screen and (max-width: 600px) {
+        font-size: 11px!important;
+        line-height: 24.21px;
+
+    }
 }
 .abandoned-cart-info {
     background-color: #F1F1F1;
