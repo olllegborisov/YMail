@@ -1,17 +1,17 @@
 .header-img {
     display: inline-block;
+    padding-right: 100%;
     // max-width: 231px;
 }
 .header-phone {
     display: inline-block;
-    font-size: 20.12px;
+    font-size: 16.12px;
     font-weight: 700;
-    line-height: 34.21px;
+    line-height: 26.21px;
     letter-spacing: 0.03em;
     @media only screen and (max-width: 600px) {
-        font-size: 11px!important;
+        font-size: 16px!important;
         line-height: 24.21px;
-
     }
 }
 .abandoned-cart-info {
