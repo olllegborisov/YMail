@@ -1,0 +1,99 @@
+.header-img {
+    max-width: 231px;
+}
+.header-phone {
+    display: block;
+    font-size: 20.12px;
+    font-weight: 700;
+    line-height: 34.21px;
+    letter-spacing: 0.03em;
+}
+.abandoned-cart-info {
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.abandoned-cart-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: center;
+
+}
+.abandoned-cart-text {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+}
+.abandoned-cart-text-bold {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.8px;
+    text-align: center;
+}
+.shopping-list {
+    background-color: #F1F1F1;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 13px;
+}
+.list-first {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.list-last {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.shopping-list-name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.84px;
+    letter-spacing: 0.02em;
+    @media only screen and (max-width: 339px) {
+        font-size: 13px!important;
+    }
+}
+.shopping-list-quantity, .shopping-list-price {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    letter-spacing: 0.02em;
+    @media only screen and (max-width: 330px) {
+        font-size: 13px!important;
+    }
+}
+.congratulations-order-text-first {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+}
+.congratulations-order-button-first {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+}
+.congratulations-order-text-second {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+    max-width: 277px;
+    display: block;
+}
+.congratulations-order-text-bold {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.8px;
+}
+.congratulations-order-button-second {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+}
+
+
