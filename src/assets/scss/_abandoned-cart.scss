@@ -1,6 +1,5 @@
 .header-img {
-    display: inline-block;
-    padding-right: 100%;
+    display: block;
     // max-width: 231px;
 }
 .header-phone {
@@ -10,7 +9,7 @@
     line-height: 26.21px;
     letter-spacing: 0.03em;
     @media only screen and (max-width: 600px) {
-        font-size: 16px!important;
+        font-size: 14px!important;
         line-height: 24.21px;
     }
 }
