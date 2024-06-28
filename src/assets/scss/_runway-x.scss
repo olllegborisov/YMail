@@ -5,9 +5,12 @@
 }
 .header-title {
 
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 900;
     line-height: 20.94px;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 14px!important;
+    }
 }
 .header-nav {
     text-transform: uppercase;
@@ -15,20 +18,29 @@
 }
 .logo {
     width: 80%!important;
+    max-width: 360px;
 }
 .navigation {
     padding: 20px;
+    margin-bottom: 16px;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        margin-bottom: 0px;
+
+    }
 }
 .navigation-text {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 16.8px;
+    @media only screen and (max-width: #{$global-breakpoint}) {
+        font-size: 12px!important;
+    }
 }
 
 
 
 .navigation-link {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 14.63px;
     letter-spacing: -0.01em;
@@ -38,16 +50,19 @@
     }
 }
 .congratulations {
+    border-top: 7px solid #F1F1F1;
     background-image: url('https://olllegborisov.github.io/YMail/src/assets/img/confetti-v3.png');
 }
 .congratulations-title {
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: 900;
     line-height: 24.38px;
+    color: #383838
 }
 
 
-.congratulations-text {
+.congratulations-text1,
+.congratulations-text2 {
     font-size: 18px;
     font-weight: 500;
     line-height: 30.6px;
@@ -55,24 +70,24 @@
     display: inline-block;
 }
 
-
+.manual {
+    margin-top: 20px;
+    border-top: 8px solid  #F1F1F1;
+}
 .manual .manual-hieroglyph {
-    width: 800;
-    font-size: 29px;
-    line-height: 31.62px;
     color: #C8C9CB;
 }
 .manual .manual-subtitle {
-    font-weight: 800;
-    font-size: 22px;
+    font-weight: 900;
+    font-size: 25px;
     line-height: 35.2px;
     max-width: 485px;
 }
 .manual .manual-text {
-    font-weight: 600;
-    font-size: 19px;
+    font-weight: 900;
+    font-size: 20px;
     line-height: 32.3px;
-    font-weight: 700;
+    color: #383838;
 }
 .manual .manual-button .secondary{
     background-color: #E03638;
