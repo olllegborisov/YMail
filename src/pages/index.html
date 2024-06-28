@@ -1,34 +1,48 @@
 ---
 layout: index-layout
-subject: Abandoned cart
+subject: Runway X
 ---
 
 <container>
-    {{> header-cart}}
-    {{> info}}
-    {{> shopping-list}}
-    <spacer size="36"></spacer>
-    <center>
-        <span class="congratulations-order-text-first">Успейте оформить заказ, пока товары есть в наличии!</span>
-    </center>
-    <spacer size="23"></spacer>
-      <a href="#" >
-        <center align="center">
-          <img src="https://olllegborisov.github.io/YMail/src/assets/img/abandoned-cart/continue-shopping.png" alt="продолжить покупки кнопка">
-        </center>
-      </a>
-    <spacer size="34"></spacer>
-    <center>
-        <span class="congratulations-order-text-second">Если у вас возникли вопросы или нужна помощь, свяжитесь с нашей службой поддержки.</span>
-    </center>
-    <spacer size="5"></spacer>
-    <center class="congratulations-order-text-bold ">
-        С уважением, Команда YAMAGUCHI
-    </center>
-    <spacer size="23"></spacer>
-    <center>
-        <button href="#" class="congratulations-order-button-second secondary rounded">оформить заказ</button>
-    </center>
-    <spacer size="38"></spacer>
-    {{> footer}}
+  {{> header}}
+  {{> navigation}}
+    <div class="congratulations">
+      <spacer size="45"></spacer>
+      <center align="center">
+        <row>
+          <span class="congratulations-title">Здравствуйте!</span>
+        </row>
+        <spacer size="23"></spacer>
+        <row>
+          <span class="congratulations-text">Поздравляем с приобретением беговой дорожки Yamaguchi Runway-X!</span>
+      </center>
+      <spacer size="18"></spacer>
+    </div>
+    <div class="manual">
+      <spacer size-sm="34" size-lg="54"></spacer>
+      <center>
+        <img class="manual-hieroglyph"  src="https://olllegborisov.github.io/YMail/src/assets/img/hieroglyph.png" alt="иероглифы"> 
+      </center>
+      <spacer size="12"></spacer>
+      <center>
+        <span class="manual-subtitle">Как правильно пользоваться беговой дорожкой?</span>
+      </center>
+      <spacer size="24"></spacer>
+      <center>
+        <img class="manual-image" src="https://olllegborisov.github.io/YMail/src/assets/img/manual/manual.png" alt="инструкция">
+      </center>
+      <spacer size="24"></spacer>
+      <center>
+        <span class="manual-text">Полезное видео правильного использования беговой дорожки</span>
+      </center>
+      <spacer size="27"></spacer>
+      <center>
+        <button href="https://www.youtube.com/watch?v=1UmTlgGYBT0?utm_source=email&utm_medium=unisender&utm_campaign=inst_runwayx" class="manual-button secondary large radius">СМОТРЕТЬ ИНСТРУКЦИЮ</button>
+      </center>
+      {{> download}}
+      {{> footer}}
+      
+    </div>
+
 </container>
+
